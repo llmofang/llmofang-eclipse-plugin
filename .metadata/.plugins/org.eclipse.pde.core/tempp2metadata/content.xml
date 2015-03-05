@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/D:/ide/eclipse-standard-kepler-SR2-win32-x86_64/workspace3/.metadata/.plugins/org.eclipse.pde.core/tempp2metadata - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1425474147406'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='5'>
+    <unit id='llmofang-eclipse-plugin-osgi' version='1.0.0.201503042102' singleton='false'>
+      <update id='llmofang-eclipse-plugin-osgi' range='[0.0.0,1.0.0.201503042102)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='Llmofang-eclipse-plugin-osgi'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='llmofang-eclipse-plugin-osgi' version='1.0.0.201503042102'/>
+        <provided namespace='osgi.bundle' name='llmofang-eclipse-plugin-osgi' version='1.0.0.201503042102'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='llmofang-eclipse-plugin-osgi' version='1.0.0.201503042102'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: llmofang-eclipse-plugin-osgi&#xA;Bundle-Version: 1.0.0.201503042102
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='LLMoFang_Eclipse_Plugin_Feature.feature.jar' version='1.0.0.201503042102'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='LLMoFang_Eclipse_Plugin_Feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='LLMoFang_Eclipse_Plugin_Feature.feature.jar' version='1.0.0.201503042102'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='LLMoFang_Eclipse_Plugin_Feature' version='1.0.0.201503042102'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='LLMoFang_Eclipse_Plugin_Feature' version='1.0.0.201503042102'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.llmofang.eclipse.plugin' version='1.0.0.2---7735C393A7537'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='llmofang-eclipse-plugin'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.llmofang.eclipse.plugin' version='1.0.0.2---7735C393A7537'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='LLMoFang_Eclipse_Plugin_Feature.feature.group' range='[1.0.0.201503042102,1.0.0.201503042102]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
+    <unit id='LLMoFang_Eclipse_Plugin_Feature.feature.group' version='1.0.0.201503042102' singleton='false'>
+      <update id='LLMoFang_Eclipse_Plugin_Feature.feature.group' range='[0.0.0,1.0.0.201503042102)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='LLMoFang_Eclipse_Plugin_Feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='LLMoFang_Eclipse_Plugin_Feature.feature.group' version='1.0.0.201503042102'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='LLMoFang-eclipse-plugin-modify' range='[1.0.0.201503042102,1.0.0.201503042102]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='llmofang-eclipse-plugin-osgi' range='[1.0.0.201503042102,1.0.0.201503042102]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='LLMoFang_Eclipse_Plugin_Feature.feature.jar' range='[1.0.0.201503042102,1.0.0.201503042102]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='LLMoFang-eclipse-plugin-modify' version='1.0.0.201503042102'>
+      <update id='LLMoFang-eclipse-plugin-modify' range='[0.0.0,1.0.0.201503042102)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='LLMoFang-eclipse-plugin-modify'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='LLMoFang-eclipse-plugin-modify' version='1.0.0.201503042102'/>
+        <provided namespace='osgi.bundle' name='LLMoFang-eclipse-plugin-modify' version='1.0.0.201503042102'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='3.8.101'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jdt.core' range='3.9.2'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='LLMoFang-eclipse-plugin-modify' version='1.0.0.201503042102'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: LLMoFang-eclipse-plugin-modify;singleton:=true&#xA;Bundle-Version: 1.0.0.201503042102
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

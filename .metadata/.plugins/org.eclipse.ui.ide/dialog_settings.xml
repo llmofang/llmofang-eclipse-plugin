@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\github\llmofang-eclipse-plugin\llmofang-eclipse-plugin-osgi"/>
+			<item value="D:\github\llmofang-eclipse-plugin\llmofang-eclipse-plugin-modify"/>
+			<item value="D:\github\llmofang-eclipse-plugin"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="599" key="DIALOG_HEIGHT"/>
+		<item value="19" key="DIALOG_X_ORIGIN"/>
+		<item value="-52" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

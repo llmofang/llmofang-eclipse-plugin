@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.startup">
+     <startup class="com.llmofang.android.eclipse.plugin.Bootstrap" />
+   </extension>
+
+	<extension id="com.llmofang.android.eclipse.plugin.LLMoFangNature" name="LLMoFang Nature" point="org.eclipse.core.resources.natures">
+		<runtime>
+			<run class="com.llmofang.android.eclipse.plugin.LLMoFangNature" />
+		</runtime>
+	</extension>
+	<extension point="org.eclipse.ui.popupMenus">
+    <objectContribution
+      id="com.llmofang.agent.android.eclipse.plugin.popupMenu"
+      objectClass="org.eclipse.core.resources.IProject"
+      adaptable="true">
+			<action id="com.llmofang.android.eclipse.plugin.Install"
+					class="com.llmofang.android.eclipse.plugin.Install"
+          icon="icons/sample.gif"
+					label="Install LLMoFang"
+					menubarPath="additions"
+					tooltip="Install the LLMoFang library for this application" />
+			<visibility>
+				<and>
+					<objectState name="open" value="true" />
+					<objectState name="nature" value="com.android.ide.eclipse.adt.AndroidNature" />
+					<not>
+						<objectState name="nature" value="com.llmofang.android.eclipse.plugin.LLMoFangNature" />
+					</not>
+				</and>
+			</visibility>
+    </objectContribution>
+     <objectContribution
+      id="com.llmofang.agent.android.eclipse.plugin.popupMenu"
+      objectClass="org.eclipse.core.resources.IProject"
+      adaptable="true">
+			<action id="com.llmofang.android.eclipse.plugin.Update"
+					class="com.llmofang.android.eclipse.plugin.Install"
+          icon="icons/sample.gif"
+					label="Update llmofang"
+					menubarPath="additions"
+					tooltip="Install the llmofang library for this application" />
+			<visibility>
+				<and>
+					<objectState name="open" value="true" />
+					<objectState name="nature" value="com.android.ide.eclipse.adt.AndroidNature" />
+          <objectState name="nature" value="com.llmofang.android.eclipse.plugin.LLMoFangNature" />
+				</and>
+			</visibility>
+    </objectContribution>
+	</extension>
+  
+
+</plugin>

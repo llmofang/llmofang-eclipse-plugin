@@ -1,0 +1,24 @@
+INDEX VERSION 1.126+D:\ide\eclipse-standard-kepler-SR2-win32-x86_64\workspace3\.metadata\.plugins\org.eclipse.jdt.core
+4178959567.index
+467400323.index
+906824473.index
+209378392.index
+2561931337.index
+2647163477.index
+3053361147.index
+174472609.index
+3297507733.index
+4150076683.index
+1659623499.index
+2788327189.index
+364196859.index
+212151718.index
+1992289153.index
+1200832169.index
+1421208686.index
+1872761164.index
+4249685201.index
+2772784927.index
+988579041.index
+1397718440.index
+1731172443.index

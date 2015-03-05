@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="507" localization="OSGI-INF/l10n/bundle" name="Llmofang-eclipse-plugin-osgi" project="llmofang-eclipse-plugin-osgi"/>
+	<bundle bundleID="508" class="llmofang_eclipse_plugin.Activator" localization="OSGI-INF/l10n/bundle" name="LLMoFang-eclipse-plugin-modify" project="llmofang-eclipse-plugin-modify">
+		<library name="."/>
+		<library name="libs/llmofang.android.jar"/>
+		<library name="libs/HingeRewriter_ASM3-1.0.jar"/>
+		<library name="libs/tools.jar"/>
+	</bundle>
+</map>

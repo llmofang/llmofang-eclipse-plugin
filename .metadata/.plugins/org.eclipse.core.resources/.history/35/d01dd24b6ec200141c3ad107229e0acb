@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LLMoFang-eclipse-plugin-modify
+Bundle-SymbolicName: LLMoFang-eclipse-plugin-modify;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: llmofang_eclipse_plugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.8.101",
+ org.eclipse.jdt.core;bundle-version="3.9.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,libs/llmofang.android.jar,libs/HingeRewriter_ASM3-1.0.jar,libs/tools.jar

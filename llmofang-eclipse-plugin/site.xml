@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/LLMoFang_Eclipse_Plugin_Feature_1.0.0.201503042035.jar" id="LLMoFang_Eclipse_Plugin_Feature" version="1.0.0.201503042035">
+      <category name="com.llmofang.eclipse.plugin"/>
+   </feature>
+   <category-def name="com.llmofang.eclipse.plugin" label="llmofang-eclipse-plugin"/>
+</site>

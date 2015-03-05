@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Llmofang-eclipse-plugin-osgi
+Bundle-SymbolicName: llmofang-eclipse-plugin-osgi
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
